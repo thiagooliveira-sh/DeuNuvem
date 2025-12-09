@@ -5,3 +5,5 @@
 [build.environment]
   NODE_VERSION = "22.11.0"
   NPM_FLAGS = "--legacy-peer-deps"
+  # This is a Vite project, not Next.js
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
